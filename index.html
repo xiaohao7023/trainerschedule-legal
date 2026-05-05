@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainerSchedule - Legal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #F4F3EE;
+            color: #2D2A26;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            background: #C15F3C;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+        .icon svg { width: 40px; height: 40px; fill: white; }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #8E8E93;
+            margin-bottom: 40px;
+        }
+        .links { display: flex; flex-direction: column; gap: 16px; }
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 20px;
+            background: white;
+            border-radius: 16px;
+            text-decoration: none;
+            color: #2D2A26;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .link-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .link-card .left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .link-card .icon-bg {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .link-card .icon-bg svg { width: 18px; height: 18px; }
+        .link-card .label { font-size: 17px; font-weight: 500; }
+        .link-card .chevron { font-size: 14px; color: #C7C7CC; }
+        .footer {
+            margin-top: 48px;
+            font-size: 13px;
+            color: #AEAEB2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM7 12h5v5H7v-5z"/></svg>
+        </div>
+        <h1>TrainerSchedule</h1>
+        <p class="subtitle">Legal Information</p>
+
+        <div class="links">
+            <a href="privacy.html" class="link-card">
+                <div class="left">
+                    <div class="icon-bg" style="background: #007AFF14;">
+                        <svg viewBox="0 0 24 24" fill="#007AFF"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                    </div>
+                    <span class="label">Privacy Policy</span>
+                </div>
+                <span class="chevron">&#8250;</span>
+            </a>
+
+            <a href="terms.html" class="link-card">
+                <div class="left">
+                    <div class="icon-bg" style="background: #5856D614;">
+                        <svg viewBox="0 0 24 24" fill="#5856D6"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 9h-2V9h2v2zm0 4h-2v-2h2v2zm-3-4H8V9h2v2zm0 4H8v-2h2v2zm6-4h-2V9h2v2zm0 4h-2v-2h2v2z"/></svg>
+                    </div>
+                    <span class="label">Terms of Service</span>
+                </div>
+                <span class="chevron">&#8250;</span>
+            </a>
+        </div>
+
+        <p class="footer">Last updated: May 2026</p>
+    </div>
+</body>
+</html>
